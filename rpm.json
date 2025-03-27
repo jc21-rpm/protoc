@@ -2,6 +2,6 @@
   "publish": {
     "PACKAGE": "protoc",
     "GH_USER": "jc21-rpm",
-    "VERSION": "30.1"
+    "VERSION": "30.2"
   }
 }
