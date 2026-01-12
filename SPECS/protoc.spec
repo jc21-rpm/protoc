@@ -4,7 +4,7 @@
 %global __strip /bin/true
 
 Name:           protoc
-Version:        33.3
+Version:        33.4
 Release:        1%{?dist}
 Summary:        Protocol Buffers - Google's data interchange format
 License:        Apache-2.0
@@ -36,6 +36,9 @@ rm -rf %{buildroot}
 /usr/bin/%{name}
 
 %changelog
+* Tue Jan 13 2026 Jamie Curnow <jc@jc21.com> - 33.4-1
+- v33.4
+
 * Mon Jan 12 2026 Jamie Curnow <jc@jc21.com> - 33.3-1
 - v33.3
 
