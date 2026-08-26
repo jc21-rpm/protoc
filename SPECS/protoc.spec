@@ -19,7 +19,7 @@ BuildRequires:  bazel
 %setup -q -n protobuf-%{version}
 
 %build
-bazel build :protoc :protobuf --enable_bzlmod
+bazel build :protoc :protobuf --enable_bzlmod --@com_google_protobuf//bazel/flags:allow_nonstandard_protoc=true
 
 %install
 
